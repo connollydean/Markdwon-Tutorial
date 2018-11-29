@@ -5,7 +5,7 @@ ___
 > ##### _*Distro-Hopping_   -   *Short for "distribution hopping" - can be defined as the process of switching between multiple Linux distributions in an effort to experience the various different environments Linux has to offer.*
 
 ## Preparing your Mac
-####  Step 1. BACK UP!
+###  **Step 1. BACK UP!**
 
 
 ![](https://media.giphy.com/media/l3V0AW49gt0ot4z16/giphy.gif)
@@ -29,7 +29,15 @@ People, I cannot stress this enough, if you are attempting to dual boot your Mac
 
 #### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
 
-**2. iCloud Drive**
+**3. Carbon Copy Cloner**
+
+![](images/ccc.png)
+
+Carbon Copy Cloner is a paid application that allows you to save and restore bootable backups of your MacOS system with the option to store your data remotely on their servers or locally on an external drive.
+
+#### [Carbon Copy Cloner home page](https://bombich.com/)
+
+**3. iCloud Drive**
 
 ![](images/icloud.png)
 
@@ -37,9 +45,19 @@ iCloud Drive is cloud based data backup system that comes standard with MacOS. T
 
 #### [Apple's official guide to using iCloud Drive](https://support.apple.com/en-us/HT204025)
 
+**4. Other Cloud Based Options**
+
+* [Dropbox](https://www.dropbox.com/?landing=dbv2)
 
 
+![](images/dbox.png)
 
+* [Google Drive](https://www.google.com/drive/)
+
+![](images/drive.png)
+* [Box](https://app.box.com/login)
+
+![](images/box.png)
 
 ## [Next Page]()
 ## [Back](Introduction.md)
