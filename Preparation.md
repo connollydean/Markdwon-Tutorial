@@ -4,8 +4,7 @@ ___
 
 > ##### _*Distro-Hopping_   -   *Short for "distribution hopping" - can be defined as the process of switching between multiple Linux distributions in an effort to experience the various different environments Linux has to offer.*
 
-## Getting Organized
-###  **Step 1. BACK UP!**
+##  **Step 1. BACK UP!**
 
 
 ![](https://media.giphy.com/media/l3V0AW49gt0ot4z16/giphy.gif)
