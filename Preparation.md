@@ -20,16 +20,16 @@ People, I cannot stress this enough, if you are attempting to dual boot your Mac
 
 
 ## Ways to back up your data:
-**1. Time Machine**
+### **1. Time Machine**
 
 ![](images/timemachine.png)
 
   Time Machine is a program that comes standard with MacOS and it allows you to copy and restore full bootable backups of your MacOS system.
 
 
-### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
+#### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
 
-**3. Carbon Copy Cloner**
+### **2. Carbon Copy Cloner**
 
 ![](images/ccc.png)
 
@@ -37,24 +37,24 @@ Carbon Copy Cloner is a paid application that allows you to save and restore boo
 
 *NOTE - Both Time Machine and Carbon Copy Cloner create and store "bootable backups" which means you'll be able to completely restore your system if anything goes wrong.*
 
-### [Carbon Copy Cloner home page](https://bombich.com/)
+#### [Carbon Copy Cloner home page](https://bombich.com/)
 
-**3. iCloud Drive**
+### **3. iCloud Drive**
 
 ![](images/icloud.png)
 
 iCloud Drive is cloud based data backup system that comes standard with MacOS. This is a great option for simply backing up your media rather than every file on your system.
 
 
-### [Apple's official guide to using iCloud Drive](https://support.apple.com/en-us/HT204025)
+#### [Apple's official guide to using iCloud Drive](https://support.apple.com/en-us/HT204025)
 
-**4. Other Cloud Based Options**
+### **4. Other Cloud Based Options**
 
-* [Dropbox](https://www.dropbox.com/?landing=dbv2)
+#### * [Dropbox](https://www.dropbox.com/?landing=dbv2)
 
-* [Google Drive](https://www.google.com/drive/)
+#### * [Google Drive](https://www.google.com/drive/)
 
-* [Box](https://app.box.com/login)
+#### * [Box](https://app.box.com/login)
 
 
 *NOTE - iCloud, Dropbox, Google Drive, and Box do not allow for the creation of "bootable backups" and should only be used for storing personal files rather than storing the entire OS.*
