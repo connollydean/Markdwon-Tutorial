@@ -62,8 +62,7 @@ iCloud Drive is cloud based data backup system that comes standard with MacOS. T
 
 ## What you need
 * Required
-
-  1. Mac Computer
+••1. Mac Computer
   2. 8GB Flash drive
   3. Patience
 
