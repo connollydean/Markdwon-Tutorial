@@ -4,7 +4,7 @@ ___
 
 > ##### _*Distro-Hopping_   -   *Short for "distribution hopping" - can be defined as the process of switching between multiple Linux distributions in an effort to experience the various different environments Linux has to offer.*
 
-## Preparing your Mac
+## Getting Organized
 ###  **Step 1. BACK UP!**
 
 
@@ -60,7 +60,19 @@ iCloud Drive is cloud based data backup system that comes standard with MacOS. T
 
 *NOTE - iCloud, Dropbox, Google Drive, and Box do not allow for the creation of "bootable backups" and should only be used for storing personal files rather than storing the entire OS.*
 
+## What you need
+* Required
 
+  1. Mac Computer
+  2. 8GB Flash drive
+  3. Patience
+
+
+* Optional
+
+  1. A second computer
+  2. An external drive for backups
+  3. Beer
 
 
 
