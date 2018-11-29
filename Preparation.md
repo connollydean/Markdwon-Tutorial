@@ -19,7 +19,7 @@ ___
 People, I cannot stress this enough, if you are attempting to dual boot your Mac you seriously have to BACK UP YOUR DATA! Even if you have done everything exactly correct there is still a chance you could lose everything. So, unless you want to lose your secret collection of anime I highly suggest you BACK UP YOUR DATA!
 
 
-#### Ways to back up your data:
+## Ways to back up your data:
 **1. Time Machine**
 
 ![](images/timemachine.png)
