@@ -25,7 +25,7 @@ People, I cannot stress this enough, if you are attempting to dual boot your Mac
 
 ![](images/timemachine.png)
 
-  Time Machine is a program that comes standard with MacOS and it allows you to copy and restore full backups of your MacOS system.
+  Time Machine is a program that comes standard with MacOS and it allows you to copy and restore full bootable backups of your MacOS system.
 
 #### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
 
