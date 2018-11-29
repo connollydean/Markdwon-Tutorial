@@ -53,15 +53,17 @@ iCloud Drive is cloud based data backup system that comes standard with MacOS. T
 
 * [Dropbox](https://www.dropbox.com/?landing=dbv2)
 
-
-![](images/dbox.png)
-
 * [Google Drive](https://www.google.com/drive/)
 
-![](images/drive.png)
 * [Box](https://app.box.com/login)
 
-![](images/box.png)
+
+*NOTE - iCloud, Dropbox, Google Drive, and Box do not allow for the creation of "bootable backups" and should only be used for storing personal files rather than storing the entire OS.*
+
+
+
+
+
 
 ## [Next Page]()
 ## [Back](Introduction.md)
