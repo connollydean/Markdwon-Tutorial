@@ -1,4 +1,4 @@
-## **Introduction**
+# **Introduction**
 ***
 
 
@@ -12,3 +12,9 @@ This tutorial is designed for novice users who are interested in booting multipl
 
 #### About the author
 My first attempt at dual booting linux on my MacBook was back in 2009 shortly after Apple released my personal favorite flavor of Apple's now deprecated line of "big cat" OS's, OSX Snow Leopard. Me being only 12 years old at the time definitely made the process tedious and time consuming but once I succeeded I was hooked for life. So here we are nine years, hundreds of hours on YouTube, and six corrupted drives later and I'm still dual booting my mac.
+
+
+## [Next Page](Preparation.md)
+
+
+## [Back](README.md)
