@@ -27,6 +27,7 @@ People, I cannot stress this enough, if you are attempting to dual boot your Mac
 
   Time Machine is a program that comes standard with MacOS and it allows you to copy and restore full bootable backups of your MacOS system.
 
+
 #### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
 
 **3. Carbon Copy Cloner**
@@ -35,6 +36,8 @@ People, I cannot stress this enough, if you are attempting to dual boot your Mac
 
 Carbon Copy Cloner is a paid application that allows you to save and restore bootable backups of your MacOS system with the option to store your data remotely on their servers or locally on an external drive.
 
+*NOTE - Both Time Machine and Carbon Copy Cloner create and store "bootable backups" which means you'll be able to completely restore your system if anything goes wrong.*
+
 #### [Carbon Copy Cloner home page](https://bombich.com/)
 
 **3. iCloud Drive**
@@ -42,6 +45,7 @@ Carbon Copy Cloner is a paid application that allows you to save and restore boo
 ![](images/icloud.png)
 
 iCloud Drive is cloud based data backup system that comes standard with MacOS. This is a great option for simply backing up your media rather than every file on your system.
+
 
 #### [Apple's official guide to using iCloud Drive](https://support.apple.com/en-us/HT204025)
 
