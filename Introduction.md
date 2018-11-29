@@ -8,7 +8,8 @@ INSTALL AT YOUR OWN RISK.  I am not responsible for any damage you may cause whi
 
 #### Purpose of this tutorial
 This tutorial is designed for novice users who are interested in booting multiple operating systems on Apple hardware. This guide will be mostly focused on navigating and troubleshooting the many Apple-specific roadblocks you may encounter when creating a multi-boot system.
-
+#### Hardware this was tested on
+This tutorial was tested on a 2015 Macbook Pro 15" running MacOS Mojave 10.14.1 but should also work on all modern Mac variants. 
 
 #### About the author
 My first attempt at dual booting linux on my MacBook was back in 2009 shortly after Apple released my personal favorite flavor of Apple's now deprecated line of "big cat" OS's, OSX Snow Leopard. Me being only 12 years old at the time definitely made the process tedious and time consuming but once I succeeded I was hooked for life. So here we are nine years, hundreds of hours on YouTube, and six corrupted drives later and I'm still dual booting my mac.

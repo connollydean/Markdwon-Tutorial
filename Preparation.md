@@ -27,13 +27,15 @@ People, I cannot stress this enough, if you are attempting to dual boot your Mac
 
   Time Machine is a program that comes standard with MacOS and it allows you to copy and restore full backups of your MacOS system.
 
-##### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
+#### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
 
-**2. iCloud**
+**2. iCloud Drive**
 
 ![](images/icloud.png)
 
+iCloud Drive is cloud based data backup system that comes standard with MacOS. This is a great option for simply backing up your media rather than every file on your system.
 
+#### [Apple's official guide to using iCloud Drive](https://support.apple.com/en-us/HT204025)
 
 
 
