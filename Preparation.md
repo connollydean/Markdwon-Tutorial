@@ -84,5 +84,5 @@ Lastly, I would recommend beginning with a clean install of MacOS.  This is opti
 
 
 
-## [Next Page]()
+## [Next Page](Partitioning.md)
 ## [Back](Introduction.md)
