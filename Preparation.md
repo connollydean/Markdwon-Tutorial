@@ -73,6 +73,15 @@ iCloud Drive is cloud based data backup system that comes standard with MacOS. T
 
 ## Before you Begin
 
+First and foremost, please make sure you have successfully BACKED UP YOUR DATA!
+
+Second, its important to note that this process can take many hours which is why I recommend giving yourself a good two days to complete this installation.  If everything goes smoothly this process should only take two or three hours but you should go ahead and assume you'll be without a working computer for a while.
+
+Third, following this guide is best used for educational purposes as it is not safe to assume you'll be left with a perfectly reliable system.  Future Mac updates are likely to break your dual-booting capabilities which can usually be easily fixed but this may not work for you if you're heavily reliant on your alternative OS's.
+
+Lastly, I would recommend beginning with a clean install of MacOS.  This is optional as I've never noticed any problems when installing from a "used" OS rather than a "clean" OS.  I mostly suggest starting fresh because its much easier and safer to complete this process with a "nothing to lose" mentality. Starting from a clean install will save you a lot of stress and, in my opinion, makes this process a lot more fun.
+
+
 
 
 ## [Next Page]()
