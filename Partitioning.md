@@ -120,6 +120,8 @@ Disk Utility should display something like this if you correctly partitioned you
 
 ![](images/dutil6.png)
 
+***
+
 ## [Next Page: Installing rEFInd on MacOS](macrefind.md)
 
 ## [Back](Preparation.md)
