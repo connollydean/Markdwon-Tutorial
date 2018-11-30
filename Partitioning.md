@@ -60,4 +60,4 @@ First, we need to list our APFS containers to figure out which one we need to re
 
 You should see something like this:
 
-![](images/APFS1.png)
+![]()
