@@ -50,27 +50,28 @@ iCloud Drive is cloud based data backup system that comes standard with MacOS. T
 
 ### **4. Other Cloud Based Options**
 
-#### * [Dropbox](https://www.dropbox.com/?landing=dbv2)
+#### [Dropbox](https://www.dropbox.com/?landing=dbv2)
 
-#### * [Google Drive](https://www.google.com/drive/)
+#### [Google Drive](https://www.google.com/drive/)
 
-#### * [Box](https://app.box.com/login)
+#### [Box](https://app.box.com/login)
 
 
 *NOTE - iCloud, Dropbox, Google Drive, and Box do not allow for the creation of "bootable backups" and should only be used for storing personal files rather than storing the entire OS.*
 
 ## What you need
-Required
+**Required**
 1. Mac Computer
 2. 8GB Flash drive
 3. Patience
 
 
-Optional
+**Optional**
 1. A second computer
 2. An external drive for backups
 3. Beer
 
+## Before you Begin
 
 
 
