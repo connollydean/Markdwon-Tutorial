@@ -29,3 +29,9 @@ Next, where it says "Format:" you need to select MS-DOS (FAT)
 Then you can name the partition whatever you want and click "Apply"
 
 ![](images/dutil4.png)
+
+### Did it work?
+
+If everything worked fine and you received no errors then you are ready to move on to the next step.  However, if you're like me this process did not go as planned then please read the rest of this page.
+
+## Understanding and Troubleshooting APFS
