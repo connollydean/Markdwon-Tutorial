@@ -32,7 +32,7 @@ Then you can name the partition whatever you want and click "Apply"
 
 ### Did it work?
 
-If everything worked fine and you received no errors then you are ready to move on to the next step.  However, if you're like me and this process did not go as planned then please read the rest of this page.
+If everything worked fine and you received no errors then you can head down to the bottom of this page. However, if you're like me and this process did not go as planned then please read the next section.
 
 ## Understanding and Troubleshooting APFS
 
@@ -93,16 +93,12 @@ com.apple.TimeMachine.2018-01-30-194719
 com.apple.TimeMachine.2018-01-30-211627
 com.apple.TimeMachine.2018-01-30-224917
 com.apple.TimeMachine.2018-01-30-234619
-com.apple.TimeMachine.2018-01-31-014151
-com.apple.TimeMachine.2018-01-31-024107
-com.apple.TimeMachine.2018-01-31-034442
-com.apple.TimeMachine.2018-01-31-044108
-com.apple.TimeMachine.2018-01-31-054441
-com.apple.TimeMachine.2018-01-31-064120
 
 To delete these snapshots we need to run the following command: `sudo tmutil deletelocalsnapshots`
 
-You need to run this command for every snapshot on your system as shown below
+It's ok to delete these files as Time Machine won't need them since you already backed up your data to an external drive.
+
+You need to run this command for every snapshot on your system as shown below.
 
 
 > sudo tmutil deletelocalsnapshots 2018-01-30-194719  
@@ -113,3 +109,17 @@ sudo tmutil deletelocalsnapshots 2018-01-30-224917
 Deleted local snapshot '2018-01-30-224917'    
 sudo tmutil deletelocalsnapshots 2018-01-30-234619  
 Deleted local snapshot '2018-01-30-234619'    
+
+Once these snapshots are removed, you should now be able to resize your APFS container.
+
+## Result
+
+Whether you used Disk Utility or the command line to partition your drive, the results should be the same.
+
+Disk Utility should display something like this if you correctly partitioned your drive:
+
+![](images/dutil6.png)
+
+## [Next Page: Installing rEFInd on MacOS](macrefind.md)
+
+## [Back](Preparation.md)

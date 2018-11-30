@@ -1,0 +1,1 @@
+# Installing rEFInd on MacOS
