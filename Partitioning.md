@@ -3,11 +3,13 @@
 
 ## Purpose of partitioning
 
-The goal of partitioning your HDD/SSD is to create a defined space where your Linux OS will live. Both your Linux OS and MacOS are stored on the same drive but they each exist inside their own container, otherwise known as a partition.  
+The goal of partitioning your HDD/SSD is to create a defined space where your Linux OS will live. Both your Linux OS and MacOS are stored on the same drive but they each exist inside their own container, otherwise known as their "partition".  
 
 ## Partitioning with Disk Utility
 ![](images/dutillogo.png)
 
 Go ahead and open up Disk Utility located in /Applications/Utilities.
 
-Next
+Next, you need to select your Mac's main drive then click on the button that says "Partition"
+
+![](images/dutil1.png)
