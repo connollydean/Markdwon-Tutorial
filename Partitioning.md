@@ -7,3 +7,5 @@ The goal of partitioning your HDD/SSD is to create a defined space where your Li
 
 ## Partitioning with Disk Utility
 ![](images/dutillogo.png)
+
+Go ahead and open up Disk Utility located in /Applications/Utilities.
