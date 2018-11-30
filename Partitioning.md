@@ -48,7 +48,7 @@ APFS is Apple's new proprietary filesystem that was first included with MacOS Hi
 
 APFS is great new technology if you plan to only use it with Apple software.  However, you can't install your Linux OS on an APFS partition as its necessary to have your Linux partition formatted to the FAT32 filesystem.
 
-In my situation, I figured out there was an APFS container that contained my entire 250GB SSD even though my MacOS system was only using 100GB of space.  Disk Utility wouldn't let me partition my drive because the 250GB APFS container left no room my Linux partition.
+In my situation, I figured out there was an APFS container that contained my entire 250GB SSD even though my MacOS system was only using 100GB of space.  Disk Utility wouldn't let me partition my drive because the 250GB APFS container left no room for my Linux partition.
 
 ### Solution
 
@@ -63,3 +63,53 @@ You should see something like this:
 ![](images/APFS1.png)
 
 On your system, find the container that says "APFS Physical Store Disk" and take note of the disk number.  For me it was "disk0s2" but it could be different for you. This is the container we need to resize to make room for our Linux partition.
+
+We can resize this container and create our Linux partition with the following command:
+
+`sudo diskutil apfs resizeContainer disk0s2 200g FAT32 LINUX 0b`
+
+Since I have a 250GB SSD I'm going to resize my APFS container to 200GB with the remaining 50GB to be used for my Linux partition.  
+
+In the previous command you can see we are resizing container "disk0s2" to 200GB and we are creating an additional FAT32 partition named "LINUX" with a size of 0 bytes.  I used 0 bytes for the size as the command will automatically allocate the remaining 50GB of space on my drive to the LINUX partition.
+
+### [Here's more info on resizing APFS containers](https://www.macobserver.com/tips/deep-dive/resize-your-apfs-container/)
+
+## Time Machine APFS Snapshot Error?
+
+If you used Time Machine to backup and the above command fails you may see an error that looks something like this:
+
+>Error: -69531: There is not enough free space in the APFS Container for this
+operation due to APFS limits or APFS tidemarks (perhaps caused by APFS Snapshot
+usage by Time Machine)
+
+As far as I can understand "APFS Snapshots" are snapshots of your entire system to be used by Time Machine as restoration points. These hidden files prevented me from resizing my APFS container so therefore need to be deleted.
+
+You can list your APFS snapshots by running the command `tmutil listlocalsnapshots /`
+
+You should see something like this:
+
+> tmutil listlocalsnapshots /     
+com.apple.TimeMachine.2018-01-30-194719
+com.apple.TimeMachine.2018-01-30-211627
+com.apple.TimeMachine.2018-01-30-224917
+com.apple.TimeMachine.2018-01-30-234619
+com.apple.TimeMachine.2018-01-31-014151
+com.apple.TimeMachine.2018-01-31-024107
+com.apple.TimeMachine.2018-01-31-034442
+com.apple.TimeMachine.2018-01-31-044108
+com.apple.TimeMachine.2018-01-31-054441
+com.apple.TimeMachine.2018-01-31-064120
+
+To delete these snapshots we need to run the following command: `sudo tmutil deletelocalsnapshots`
+
+You need to run this command for every snapshot on your system as shown below
+
+
+> sudo tmutil deletelocalsnapshots 2018-01-30-194719  
+Deleted local snapshot '2018-01-30-194719'  
+sudo tmutil deletelocalsnapshots 2018-01-30-211627  
+Deleted local snapshot '2018-01-30-211627'    
+sudo tmutil deletelocalsnapshots 2018-01-30-224917  
+Deleted local snapshot '2018-01-30-224917'    
+sudo tmutil deletelocalsnapshots 2018-01-30-234619  
+Deleted local snapshot '2018-01-30-234619'    
