@@ -13,3 +13,19 @@ Go ahead and open up Disk Utility located in /Applications/Utilities.
 Next, you need to select your Mac's main drive then click on the button that says "Partition"
 
 ![](images/dutil1.png)
+
+Next, you should see a prompt asking you if you'd like to create an APFS Volume or legitemately partition your drive.  Click "Partition".
+
+![](images/dutil2.png)
+
+After that, you should see a pie chart that shows your drive's partitions.  Assuming you have no other partitions on your system, the pie chart should be completely filled in.  Click on the "+" below the pie chart.
+
+![](images/dutil3.png)
+
+Once you've clicked the "+" you'll notice you now have a new adjustable partition in your pie chart. Adjust the size of this partition to the  amount of storage you wish to give your Linux OS.  I recommend a minimum of 25 GB as the Linux system files will take a significant chunk of this storage.
+
+Next, where it says "Format:" you need to select MS-DOS (FAT)
+
+Then you can name the partition whatever you want and click "Apply"
+
+![](images/dutil4.png)
