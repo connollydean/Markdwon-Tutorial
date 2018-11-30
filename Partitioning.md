@@ -61,3 +61,5 @@ First, we need to list our APFS containers to figure out which one we need to re
 You should see something like this:
 
 ![](images/APFS1.png)
+
+On your system, find the container that says "APFS Physical Store Disk" and take note of the disk number.  For me it was "disk0s2" but it could be different for you. This is the container we need to resize to make room for our Linux partition.
