@@ -13,6 +13,15 @@ Before we can install rEFInd, we have to temporarily disable System Integrated P
 
 [Here's more info on SIP](https://support.apple.com/en-us/HT204899)
 
-To disable SIP we need to boot into Recovery Mode.  To do this, shut down your Mac and boot up again while holding `⌘ R`
+To disable SIP we need to boot into Recovery Mode. SIP can only be disabled from Recovery Mode but you can check the status of SIP by using the terminal command `csrutil status`.   
 
-SIP can only be disabled from Recovery Mode but you can check the status of SIP by using the terminal command `csrutil status`.  
+To disable SIP, shut down your Mac and boot up again while holding `⌘ + R`.  Once you've booted into Recovery Mode, click on Utilities and open up Terminal as shown below.
+
+![](images/recovery.png)
+
+Next, simply type `csrutil disable` into the terminal and hit enter.  After this you can restart your system by typing `reboot` into the terminal.
+
+Finally, once your Mac reboots use the command `csrutil status` to check if you've successfully disabled SIP.  You should see the following:
+
+>Connollys-MBP:~ connollydean$ csrutil status   
+System Integrity Protection status: disabled.
