@@ -14,7 +14,7 @@ Next, you need to select your Mac's main drive then click on the button that say
 
 ![](images/dutil1.png)
 
-Next, you should see a prompt asking you if you'd like to create an APFS Volume or legitemately partition your drive.  Click "Partition".
+Next, you should see a prompt asking you if you'd like to create an APFS Volume or legitimately partition your drive.  Click "Partition".
 
 ![](images/dutil2.png)
 
