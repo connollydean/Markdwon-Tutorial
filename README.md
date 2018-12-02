@@ -4,3 +4,7 @@
 ### 1. [Introduction](Introduction.md)
 
 ### 2. [Preparation](Preparation.md)
+
+### 3. [Partitioning](Partitioning.md)
+
+### 4. [Installing rEFInd on MacOS](macrefind.md)
