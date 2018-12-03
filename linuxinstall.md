@@ -9,7 +9,7 @@ This tutorial is focused on getting Linux to boot on your Apple hardware. Theref
 
 Use the arrow keys to select your USB drive, then hit enter to boot into the installer.
 
-![](images/rEFIndUSB.png)
+![](images/refindUSB.png)
 
 I'm using Manjaro Linux for this tutorial and this is what it looked like when it started up:
 
