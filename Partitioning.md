@@ -112,7 +112,7 @@ Deleted local snapshot '2018-01-30-234619'
 
 Once these snapshots are removed, you should now be able to resize your APFS container.
 
-*NOTE - after completing this process I've come to the conclusion that that Disk Utility was most likely preventing me from adding a new partition solely due to the Time Machine snapshot error.  Therefore it may not be necessary to resize your APFS container from the command line. *
+*NOTE - after completing this process I've come to the conclusion that that Disk Utility was most likely preventing me from adding a new partition solely due to the Time Machine snapshot error.  Therefore it may not be necessary to resize your APFS container from the command line.*
 
 ## Result
 
