@@ -32,9 +32,9 @@ Then you can name the partition whatever you want and click "Apply"
 
 ### Did it work?
 
-If everything worked fine and you received no errors then you can head down to the bottom of this page. However, if you're like me and this process did not go as planned then please read the next section.
+If everything worked fine and you received no errors then you can head down to the bottom of this page. However, if you're like me and this process did not go as planned then please read the following section.
 
-## Understanding and Troubleshooting APFS
+## Partitioning with Terminal and Troubleshooting APFS
 
 ### Quick Backstory
 
@@ -89,9 +89,9 @@ You can list your APFS snapshots by running the command `tmutil listlocalsnapsho
 You should see something like this:
 
 > tmutil listlocalsnapshots /     
-com.apple.TimeMachine.2018-01-30-194719
-com.apple.TimeMachine.2018-01-30-211627
-com.apple.TimeMachine.2018-01-30-224917
+com.apple.TimeMachine.2018-01-30-194719   
+com.apple.TimeMachine.2018-01-30-211627   
+com.apple.TimeMachine.2018-01-30-224917   
 com.apple.TimeMachine.2018-01-30-234619
 
 To delete these snapshots we need to run the following command: `sudo tmutil deletelocalsnapshots`
@@ -111,6 +111,8 @@ sudo tmutil deletelocalsnapshots 2018-01-30-234619
 Deleted local snapshot '2018-01-30-234619'    
 
 Once these snapshots are removed, you should now be able to resize your APFS container.
+
+*NOTE - after completing this process I've come to the conclusion that that Disk Utility was most likely preventing me from adding a new partition solely due to the Time Machine snapshot error.  Therefore it may not be necessary to resize your APFS container from the command line. *
 
 ## Result
 
