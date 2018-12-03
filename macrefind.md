@@ -26,4 +26,24 @@ Finally, once your Mac reboots use the command `csrutil status` to check if you'
 >Connollys-MBP:~ connollydean$ csrutil status   
 System Integrity Protection status: disabled.
 
+To enable SIP again, simply follow the same process but instead use the command `csrutil enable`
+
 ## Installing rEFInd
+
+Now that SIP has been disabled, we can continue with installing rEFInd.
+
+First, download the latest version of rEFInd from [this link](https://sourceforge.net/projects/refind/)
+
+Next, open up the refind-bin folder and right-click on the file named "refind-install" then click open as shown below:
+
+![](images/refind1.png)
+
+This will open up a terminal window and ask you for your password. Type in your password and hit enter to complete the installation.  The result of this should look similar to the image below:
+
+![](images/refind2.png)
+
+Now that the installation is complete, reboot your computer to check if it was successful. If you followed the steps correctly your Mac should boot into a screen that looks something like this:
+
+![](images/refindscreen.png)
+
+*NOTE - You may see more than one Mac boot options on this screen such as "Boot MacOS from Preboot". Not to worry, this is just a side-affect of the APFS filesystem and any unwanted boot options can be hidden later.
