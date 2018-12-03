@@ -46,4 +46,12 @@ Now that the installation is complete, reboot your computer to check if it was s
 
 ![](images/refindscreen.png)
 
-*NOTE - You may see more than one Mac boot options on this screen such as "Boot MacOS from Preboot". Not to worry, this is just a side-affect of the APFS filesystem and any unwanted boot options can be hidden later.*
+*NOTE - You may see multiple Mac boot options on this screen such as "Boot MacOS from Preboot". Not to worry, this is just a side-affect of the APFS filesystem and any unwanted boot options can be hidden later.*
+
+Now that rEFInd has been installed you can now re-enable SIP if you choose and continue on to the next page.
+
+***
+
+## [Next Page: Creating A Bootable Linux USB Drive](linuxusb.md)
+
+## [Back To Home Page](README.md)
