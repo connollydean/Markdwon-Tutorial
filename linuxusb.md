@@ -96,9 +96,9 @@ Finally, with your USB drive still plugged in, reboot your computer to see if rE
 
 ![](images/refindUSB.png)
 
-You now have a bootable Linux USB drive and you're ready to move on to the next page. 
+You now have a bootable Linux USB drive and you're ready to move on to the next page.
 
 ***
-## [Next Page: Installing Linux]()
+## [Next Page: Installing Linux](linuxinstall.md)
 
 ## [Back To Home](README.md)
