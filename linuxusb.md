@@ -91,3 +91,14 @@ Finally, make sure your correct USB drive is selected and click "Flash!".  Let t
 If the image was flashed successfully, you should get a warning stating the "disk is not readable".
 
 ![](images/etcher5.png)
+
+Finally, with your USB drive still plugged in, reboot your computer to see if rEFInd has detected your bootable drive. If it does, you should see something that looks similar to this:
+
+![](images/refindUSB.png)
+
+You now have a bootable Linux USB drive and you're ready to move on to the next page. 
+
+***
+## [Next Page: Installing Linux]()
+
+## [Back To Home](README.md)
