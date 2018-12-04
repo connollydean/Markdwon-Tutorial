@@ -3,7 +3,7 @@
 
 ### Before you begin
 
-This tutorial is focused on getting Linux to boot on your Apple hardware. Therefore, this part of the tutorial will only go into detail on installing Linux to the proper partition and choosing the right file filesystem.  For more information on configuring your Linux install please refer to your distribution's documentation.
+This tutorial is focused on getting Linux to boot on your Apple hardware. Therefore, this part of the tutorial will only go into detail on installing Linux to the proper partition and choosing the right filesystem.  For more information on configuring your Linux install please refer to your distribution's documentation.
 
 ### Boot into your Linux Installer
 
