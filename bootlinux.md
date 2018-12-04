@@ -88,3 +88,28 @@ You should now be inside the EFI partition which should look like this:
 Next, simply drag and drop the Super Grub EFI file inside this directory like so:
 
 ![](images/aftergrub.png)
+
+If you did everything correctly, reboot your computer and you should see something like this:
+
+![](images/grubrefind.png)
+
+### Installing rEFInd On Your Linux OS
+
+Now that we have Super Grub2 Disk working we can use it to boot into our Linux OS. Be sure to keep your USB drive disconnected to avoid confusion.
+
+First, boot into Super Grub2 by pressing enter while Super Grub2 is selected in the rEFInd start up menu. You should now see something like this:
+
+![](images/supergrub1.png)
+
+Next, use the arrow keys to select "Detect and show boot methods" and press enter. You should now see something like this:
+
+![](images/supergrub2.png)
+
+On this page, we need to find our Linux OS. As you can see our first two items on the list are labelled "Linux" like so:
+
+> Linux /boot/vmlinuz-4.19-x86_64 (hd5,gpt3)    
+Linux /boot/vmlinuz-4.19-x86_64 (single) (hd5,gpt3)
+
+You want to select the one that does NOT say "(single)".  Don't worry if you select the wrong one as you can always reboot and make the correct selection.
+
+Once you have the correct item selected, hit enter to boot into your Linux OS.
