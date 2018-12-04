@@ -54,3 +54,10 @@ This is O.K. as we will be fixing this later.
 Continue with the installation until it is complete like so:
 
 ![](images/complete.png)
+
+You now have Linux installed on your partition and can move on to the next page.
+***
+
+## [Next Page: Booting Linux](bootlinux.md)
+
+## [Back To Home](README.md)
