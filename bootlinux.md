@@ -135,7 +135,7 @@ First, download the latest version of rEFInd from [this link](https://sourceforg
 
 Next we need to open up the terminal and access the directory where rEFInd is stored using the `cd` command.
 
-For me, refind is stored in the following directory - `/home/connollydean/Downloads/refind-bin-0.11.4`
+For me, rEFInd is stored in the following directory - `/home/connollydean/Downloads/refind-bin-0.11.4`
 
 To access this directory in the terminal we need to use the following command:
 
