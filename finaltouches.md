@@ -29,4 +29,4 @@ This will be just a brief introduction to theming rEFInd. For more information, 
 
 To adjust the appearance of rEFInd we first need to mount our EFI partition.
 
-To mount your EFI partition please refer to the ["Mounting Your EFI Partition" section on the previous page](https://github.com/connollydean/Markdwon-Tutorial/blob/master/bootlinux.md#efi123).
+To mount your EFI partition please refer to the ["Mounting Your EFI Partition" section on the previous page](https://github.com/connollydean/Markdwon-Tutorial/blob/master/bootlinux#efi123).
