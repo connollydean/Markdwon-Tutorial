@@ -53,7 +53,7 @@ go ahead and rename this file to something like this:
 
 It doesn't matter what you name it, it just needs to end with `_x64.EFI`
 
-#### <a name="efi"></a>Mounting Your EFI Partition
+#### <a name="efi123"></a>Mounting Your EFI Partition
 
 To install the Super Grub2 EFI file we need to move it to the EFI partition.
 
