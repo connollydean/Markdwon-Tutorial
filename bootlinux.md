@@ -1,7 +1,7 @@
-## How To Get Linux To Boot
+# How To Get Linux To Boot
 ***
 
-### Getting rEFInd To Detect Your Linux Partition
+## Getting rEFInd To Detect Your Linux Partition
 
 Since you've successfully installed Linux on your partition, you can unplug your USB and reboot your computer and you should see something like this:
 
@@ -19,7 +19,7 @@ This warning means we didn't map our Linux install to our EFI partition. While i
 
 ***
 
-### Installing Super Grub2 Disk
+## Installing Super Grub2 Disk
 
 Super Grub2 Disk description:
 
@@ -27,7 +27,7 @@ Super Grub2 Disk description:
 
 You can think of Super Grub2 as a back up to rEFInd.  Super Grub2 does a much better job at detecting bootable drives on your system and its a great tool to keep around for future troubleshooting.
 ***
-### Option 1: Creating a bootable Super Grub2 live USB drive
+## Option 1: Creating a bootable Super Grub2 live USB drive
 
 First, download the Super Grub2 Disk x86_64 .ISO file from [this link](https://sourceforge.net/projects/supergrub2/files/2.02s10/super_grub2_disk_2.02s10/super_grub2_disk_x86_64_efi_2.02s10.iso/download).
 
@@ -35,7 +35,7 @@ Next, simply follow the same process from the [Creating A Bootable Linux USB Dri
 
 You can now use this live USB drive to access the Super Grub2 menu any time the USB drive is plugged in.
 ***
-### Option 2: Installing Super Grub2 Drive as a standalone .EFI file
+## Option 2: Installing Super Grub2 Drive as a standalone .EFI file
 
 With this method well be installing Super Grub2 as a permanent boot option that we can access at any time from the rEFInd start up menu. I recommend this option over the live USB option as I find having Super Grub2 as a permanent boot option to be more useful than a live USB.
 
@@ -53,7 +53,7 @@ go ahead and rename this file to something like this:
 
 It doesn't matter what you name it, it just needs to end with `_x64.EFI`
 
-#### Mounting Your EFI Partition<a name="efi123"></a>
+## Mounting Your EFI Partition<a name="efi123"></a>
 
 To install the Super Grub2 EFI file we need to move it to the EFI partition.
 
