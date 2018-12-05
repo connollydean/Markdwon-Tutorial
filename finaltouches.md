@@ -20,3 +20,13 @@ After removing all of your unwanted boot options you should be left with somethi
 ![](images/manjrefind.png)
 ***
 ### Theming rEFInd
+
+This will be just a brief introduction to theming rEFInd. For more information, please refer to rEFInd's official documentation bellow:
+
+[Theming rEFInd](https://www.rodsbooks.com/refind/themes.html)
+
+#### Acessing refind.conf
+
+To adjust the appearance of rEFInd we first need to mount our EFI partition.
+
+To mount your EFI partition please refer to the ["Mounting Your EFI Partition" section on the previous page](Mounting Your EFI Partition).
