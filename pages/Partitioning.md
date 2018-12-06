@@ -124,6 +124,6 @@ Disk Utility should display something like this if you correctly partitioned you
 
 ***
 
-## [Next Page: Installing rEFInd on MacOS](pages/macrefind.md)
+## [Next Page: Installing rEFInd on MacOS](macrefind.md)
 
 ## [Back To Home Page](README.md)

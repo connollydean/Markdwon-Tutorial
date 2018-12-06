@@ -99,6 +99,6 @@ Finally, with your USB drive still plugged in, reboot your computer to see if rE
 You now have a bootable Linux USB drive and you're ready to move on to the next page.
 
 ***
-## [Next Page: Installing Linux](pages/linuxinstall.md)
+## [Next Page: Installing Linux](linuxinstall.md)
 
 ## [Back To Home](README.md)

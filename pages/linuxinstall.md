@@ -58,6 +58,6 @@ Continue with the installation until it is complete like so:
 You now have Linux installed on your partition and can move on to the next page.
 ***
 
-## [Next Page: Booting Linux](pages/bootlinux.md)
+## [Next Page: Booting Linux](bootlinux.md)
 
-## [Back To Home](pages/README.md)
+## [Back To Home](README.md)

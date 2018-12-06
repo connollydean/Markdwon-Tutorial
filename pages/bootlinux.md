@@ -31,7 +31,7 @@ You can think of Super Grub2 as a back up to rEFInd.  Super Grub2 does a much be
 
 First, download the Super Grub2 Disk x86_64 .ISO file from [this link](https://sourceforge.net/projects/supergrub2/files/2.02s10/super_grub2_disk_2.02s10/super_grub2_disk_x86_64_efi_2.02s10.iso/download).
 
-Next, simply follow the same process from the [Creating A Bootable Linux USB Drive page](pages/linuxusb.md), except replace your Linux .ISO file with the Super Grub2 Disk .ISO file.
+Next, simply follow the same process from the [Creating A Bootable Linux USB Drive page](linuxusb.md), except replace your Linux .ISO file with the Super Grub2 Disk .ISO file.
 
 You can now use this live USB drive to access the Super Grub2 menu any time the USB drive is plugged in.
 ***
@@ -163,6 +163,6 @@ If you're satisfied with this you have now completed this tutorial. Otherwise fe
 
 ***
 
-## [Next Page: Customizing rEFInd](pages/finaltouches.md)
+## [Next Page: Customizing rEFInd](finaltouches.md)
 
 ## [Back To Home](README.MD)
