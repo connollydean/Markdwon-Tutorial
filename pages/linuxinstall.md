@@ -27,15 +27,15 @@ Next we need to select and format the partition we created earlier. This is what
 
 ![](images/driveselect.png)
 
-Earlier, I created a ~50 GB FAT32 partition for my Linux installation.  This is where we have to carefully make sure we are selecting the right partition to install to.  As you can see "/dev/sda3" is about 50 GB and is formatted in the FAT32 filesystem.
+Earlier, I created a ~50 GB FAT32 partition for my Linux installation.  This is where we have to carefully make sure we are selecting the right partition to install to.  As you can see '/dev/sda3' is about 50 GB and is formatted in the FAT32 filesystem.
 
 With the correct partition selected, I clicked on "edit" in the bottom right of the window to configure my partition like so:
 
 ![](images/filesys.png)
 
-Notice here we need to format the partition to the "ext4" filesystem and set the mount point to "/".
+Notice here we need to format the partition to the `ext4` filesystem and set the mount point to `/`.
 
-This will format our partition to the ext4 filesystem which is especially designed for Linux.  Also, by setting the mount point to "/", we are telling the installer to install the entire system to this partition. After the partition has been configured you should see something like this:
+This will format our partition to the 'ext4' filesystem which is especially designed for Linux.  Also, by setting the mount point to '/', we are telling the installer to install the entire system to this partition. After the partition has been configured you should see something like this:
 
 ![](images/format.png)
 
@@ -60,4 +60,4 @@ You now have Linux installed on your partition and can move on to the next page.
 
 ## [Next Page: Booting Linux](bootlinux.md)
 
-## [Back To Home](README.md)
+## [Back To Home](/README.md)

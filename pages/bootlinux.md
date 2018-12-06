@@ -37,7 +37,7 @@ You can now use this live USB drive to access the Super Grub2 menu any time the 
 ***
 ## Option 2: Installing Super Grub2 Drive as a standalone .EFI file
 
-With this method well be installing Super Grub2 as a permanent boot option that we can access at any time from the rEFInd start up menu. I recommend this option over the live USB option as I find having Super Grub2 as a permanent boot option to be more useful than a live USB.
+With this method we'll be installing Super Grub2 as a permanent boot option that we can access at any time from the rEFInd start up menu. I recommend this option over the live USB option as I find having Super Grub2 as a permanent boot option to be more useful than a live USB.
 
 First, download the Super Grub2 Disk EFI x86_64 standalone version from [this link](https://sourceforge.net/projects/supergrub2/files/2.02s10/super_grub2_disk_2.02s10/super_grub2_disk_standalone_x86_64_efi_2.02s10.EFI/download).
 
