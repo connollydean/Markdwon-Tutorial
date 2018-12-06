@@ -60,4 +60,4 @@ You now have Linux installed on your partition and can move on to the next page.
 
 ## [Next Page: Booting Linux](bootlinux.md)
 
-## [Back To Home](/README.md)
+## [Back To Home](Markdwon-Tutorial/README.md)

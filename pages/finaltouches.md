@@ -36,3 +36,35 @@ Once inside your EFI partition open up the folder titled "EFI" then open up the 
 ![](images/conf.png)
 
 Right click on refind.conf and open it with your preferred text editor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***
+## [Back To Home Page](Markdown-Tutorial/README.md)
