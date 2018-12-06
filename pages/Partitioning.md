@@ -3,7 +3,7 @@
 
 ## Purpose of partitioning
 
-The goal of partitioning your HDD/SSD is to create a defined space where your Linux OS will live. Both your Linux OS and MacOS are stored on the same drive but they each exist inside their own container, otherwise known as their "partition".  
+The goal of partitioning your HDD/SSD is to create a defined space where your Linux OS will live. Both your Linux OS and MacOS will be stored on the same drive but they will each exist inside their own defined space, otherwise known as their "partition".  
 
 ## Partitioning with Disk Utility
 ![](images/dutillogo.png)
@@ -64,11 +64,11 @@ You should see something like this:
 
 On your system, find the container that says "APFS Physical Store Disk" and take note of the disk number.  For me it was "disk0s2" but it could be different for you. This is the container we need to resize to make room for our Linux partition.
 
+Since I have a 250GB SSD I'm going to resize my APFS container to 200GB with the remaining 50GB to be used for my Linux partition.
+
 We can resize this container and create our Linux partition with the following command:
 
 `sudo diskutil apfs resizeContainer disk0s2 200g FAT32 LINUX 0b`
-
-Since I have a 250GB SSD I'm going to resize my APFS container to 200GB with the remaining 50GB to be used for my Linux partition.  
 
 In the previous command you can see we are resizing container "disk0s2" to 200GB and we are creating an additional FAT32 partition named "LINUX" with a size of 0 bytes.  I used 0 bytes for the size as the command will automatically allocate the remaining 50GB of space on my drive to the LINUX partition.
 
@@ -78,9 +78,11 @@ In the previous command you can see we are resizing container "disk0s2" to 200GB
 
 If you used Time Machine to backup and the above command fails you may see an error that looks something like this:
 
->Error: -69531: There is not enough free space in the APFS Container for this
+```
+Error: -69531: There is not enough free space in the APFS Container for this
 operation due to APFS limits or APFS tidemarks (perhaps caused by APFS Snapshot
 usage by Time Machine)
+```
 
 As far as I can understand "APFS Snapshots" are snapshots of your entire system to be used by Time Machine as restoration points. These hidden files prevented me from resizing my APFS container so therefore need to be deleted.
 
@@ -88,28 +90,29 @@ You can list your APFS snapshots by running the command `tmutil listlocalsnapsho
 
 You should see something like this:
 
-> tmutil listlocalsnapshots /     
+```bash
+tmutil listlocalsnapshots /     
 com.apple.TimeMachine.2018-01-30-194719   
 com.apple.TimeMachine.2018-01-30-211627   
 com.apple.TimeMachine.2018-01-30-224917   
 com.apple.TimeMachine.2018-01-30-234619
-
+```
 To delete these snapshots we need to run the following command: `sudo tmutil deletelocalsnapshots`
 
 It's ok to delete these files as Time Machine won't need them since you already backed up your data to an external drive.
 
 You need to run this command for every snapshot on your system as shown below.
 
-
-> sudo tmutil deletelocalsnapshots 2018-01-30-194719  
+```bash
+$ sudo tmutil deletelocalsnapshots 2018-01-30-194719  
 Deleted local snapshot '2018-01-30-194719'  
-sudo tmutil deletelocalsnapshots 2018-01-30-211627  
+$ sudo tmutil deletelocalsnapshots 2018-01-30-211627  
 Deleted local snapshot '2018-01-30-211627'    
-sudo tmutil deletelocalsnapshots 2018-01-30-224917  
+$ sudo tmutil deletelocalsnapshots 2018-01-30-224917  
 Deleted local snapshot '2018-01-30-224917'    
-sudo tmutil deletelocalsnapshots 2018-01-30-234619  
+$ sudo tmutil deletelocalsnapshots 2018-01-30-234619  
 Deleted local snapshot '2018-01-30-234619'    
-
+```
 Once these snapshots are removed, you should now be able to resize your APFS container.
 
 *NOTE - after completing this process I've come to the conclusion that that Disk Utility was most likely preventing me from adding a new partition solely due to the Time Machine snapshot error.  Therefore it may not be necessary to resize your APFS container from the command line.*
