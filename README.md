@@ -1,5 +1,8 @@
 # **A Beginner's Guide to Dual Booting Linux and MacOS on Apple Hardware**
 ---
+<p allign="center">
+![](pages/images/tuxmac.png)
+</p>
 ### 1. [Introduction](pages/Introduction.md)
 
 ### 2. [Preparation](pages/Preparation.md)
@@ -15,4 +18,3 @@
 ### 7. [Booting Linux](pages/bootlinux.md)
 
 ### 8. [Customizing rEFInd](pages/finaltouches.md)
-![](pages/images/tuxmac.png)
