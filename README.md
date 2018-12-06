@@ -1,6 +1,6 @@
 # **A Beginner's Guide to Dual Booting Linux and MacOS on Apple Hardware**
 ---
-![](pages/images/tuxmac.png)
+![](pages/images/tuxmac.pn)
 ### 1. [Introduction](pages/Introduction.md)
 
 ### 2. [Preparation](pages/Preparation.md)
