@@ -1,4 +1,4 @@
-# How To Get Linux To Boot
+# Booting Linux
 ***
 
 ## Getting rEFInd To Detect Your Linux Partition
@@ -15,7 +15,7 @@ This is due to the following warning we saw on the previous page:
 
 ![](images/efierror.png)
 
-This warning means we didn't map our Linux install to our EFI partition. While it's possible to map this during our Linux install, I find the following alternative method to be easier and more versatile for future Linux installs.
+This warning means we didn't map our Linux install to our EFI partition. While it's possible to map this during our Linux install, I find the following alternative method to be easier and more versatile for future Linux installations.
 
 ***
 
@@ -31,7 +31,7 @@ You can think of Super Grub2 as a back up to rEFInd.  Super Grub2 does a much be
 
 First, download the Super Grub2 Disk x86_64 .ISO file from [this link](https://sourceforge.net/projects/supergrub2/files/2.02s10/super_grub2_disk_2.02s10/super_grub2_disk_x86_64_efi_2.02s10.iso/download).
 
-Next, simply follow the same process from the [Creating A Bootable Linux USB Drive page](linuxusb.md), except replace your Linux .ISO file with the Super Grub2 Disk .ISO file.
+Next, simply follow the same process from the [Creating A Bootable Linux USB Drive page](pages/linuxusb.md), except replace your Linux .ISO file with the Super Grub2 Disk .ISO file.
 
 You can now use this live USB drive to access the Super Grub2 menu any time the USB drive is plugged in.
 ***
@@ -43,7 +43,7 @@ First, download the Super Grub2 Disk EFI x86_64 standalone version from [this li
 
 Next, we need to rename our file to help rEFInd identify the Super Grub2 EFI file as a bootable option.
 
-For me, the original name of the Super Grub2 EFI file is the following:
+For me, the original name of the Super Grub2 EFI file was the following:
 
 `super_grub2_disk_standalone_x86_64_efi_2.02s10.EFI`
 
@@ -163,6 +163,6 @@ If you're satisfied with this you have now completed this tutorial. Otherwise fe
 
 ***
 
-## [Next Page: Finishing Touches](finaltouches.md)
+## [Next Page: Customizing rEFInd](pages/finaltouches.md)
 
 ## [Back To Home](README.MD)

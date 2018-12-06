@@ -1,9 +1,5 @@
 # **Preparation**
 ___
-## **Are You Prepared to Become a Linux _*Distro-Hopping_ Badass?**
-
-> ##### _*Distro-Hopping_   -   *Short for "distribution hopping" - can be defined as the process of switching between multiple Linux distributions in an effort to experience the various different environments Linux has to offer.*
----
 ##  **Step 1. BACK UP!**
 
 
@@ -24,7 +20,7 @@ People, I cannot stress this enough, if you are attempting to dual boot your Mac
 
 ![](images/timemachine.png)
 
-  Time Machine is a program that comes standard with MacOS and it allows you to copy and restore full bootable backups of your MacOS system.
+  Time Machine is a program that comes standard with MacOS and it allows you to save and restore full bootable backups of your MacOS system.
 
 
 #### [Apple's official guide to using Time Machine](https://support.apple.com/en-us/HT201250)
@@ -43,7 +39,7 @@ Carbon Copy Cloner is a paid application that allows you to save and restore boo
 
 ![](images/icloud.png)
 
-iCloud Drive is cloud based data backup system that comes standard with MacOS. This is a great option for simply backing up your media rather than every file on your system.
+iCloud Drive is cloud based data backup system that comes standard with MacOS. This is a great option for simply backing up your personal files rather than every file on your system.
 
 
 #### [Apple's official guide to using iCloud Drive](https://support.apple.com/en-us/HT204025)
@@ -84,5 +80,5 @@ Lastly, I would recommend beginning with a clean install of MacOS.  This is opti
 
 
 
-## [Next Page: Partitioning](Partitioning.md)
+## [Next Page: Partitioning](pages/Partitioning.md)
 ## [Back To Home Page](README.md)

@@ -29,4 +29,10 @@ This will be just a brief introduction to theming rEFInd. For more information, 
 
 To adjust the appearance of rEFInd we first need to mount our EFI partition.
 
-To mount your EFI partition please refer to the ["Mounting Your EFI Partition" section on the previous page](bootlinux.md#efi123).
+To mount your EFI partition please refer to the ["Mounting Your EFI Partition" section on the previous page](pages/bootlinux.md#efi123).
+
+Once inside your EFI partition open up the folder titled "EFI" then open up the folder titled "refind".  You should see something like this:
+
+![](images/conf.png)
+
+Right click on refind.conf and open it with your preferred text editor.

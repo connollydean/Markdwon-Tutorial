@@ -54,6 +54,6 @@ Now that rEFInd has been installed you can now re-enable SIP if you choose and c
 
 ***
 
-## [Next Page: Creating A Bootable Linux USB Drive](linuxusb.md)
+## [Next Page: Creating A Bootable Linux USB Drive](pages/linuxusb.md)
 
 ## [Back To Home Page](README.md)
