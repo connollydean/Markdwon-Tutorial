@@ -91,7 +91,7 @@ You can list your APFS snapshots by running the command `tmutil listlocalsnapsho
 You should see something like this:
 
 ```bash
-tmutil listlocalsnapshots /     
+$ tmutil listlocalsnapshots /     
 com.apple.TimeMachine.2018-01-30-194719   
 com.apple.TimeMachine.2018-01-30-211627   
 com.apple.TimeMachine.2018-01-30-224917   

@@ -5,7 +5,7 @@
 
 There are thousands of different Linux distributions to choose from. I suggest choosing a distro that has good support and a strong community thats also within your skill level.
 
-##### Helpful Article: [How To Choose The Best Linux Distro For Your Needs](https://www.lifewire.com/choose-best-linux-distro-for-needs-2201172)
+### Helpful Article: [How To Choose The Best Linux Distro For Your Needs](https://www.lifewire.com/choose-best-linux-distro-for-needs-2201172)
 
 ### Popular Choices:
 
@@ -50,10 +50,10 @@ To verify that this file has not been altered or corrupted, we need to verify it
 `a19b8c306514cdb13b818ba63e1c94f74daa5155`
 
 To verify your .iso file, open up terminal and use the `shasum` command followed by the location of your .ISO file like so:
-
->Connollys-MacBook-Pro:~ connollydean$ shasum /Users/connollydean/Desktop/Extras/manjaro-gnome-18.0.1-rc1-stable-x86_64.iso     
+```bash
+Connollys-MacBook-Pro:~ connollydean$ shasum /Users/connollydean/Desktop/Extras/manjaro-gnome-18.0.1-rc1-stable-x86_64.iso     
 a19b8c306514cdb13b818ba63e1c94f74daa5155  
-
+```
 As you can see, the two SHA1 hashes match which tells us we have a safe and clean download of our .ISO image file and you can move on to the next step.
 
 ## Preparing Your USB Drive
