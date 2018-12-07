@@ -26,7 +26,7 @@ After that, you should see a pie chart that shows your drive's partitions.  Assu
 
 Once you've clicked the `+` you'll notice you now have a new adjustable partition in your pie chart. Adjust the size of this partition to the  amount of storage you wish to give your Linux OS.  I recommend a minimum of 25 GB as the Linux system files will take a significant chunk of this storage.
 
-Next, where it says `Format:`` you need to select `MS-DOS (FAT)`
+Next, where it says `Format:` you need to select `MS-DOS (FAT)`
 
 Then you can name the partition whatever you want and click `Apply`
 
