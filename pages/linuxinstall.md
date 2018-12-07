@@ -3,7 +3,7 @@
 
 ### Before you begin
 
-This tutorial is focused on getting Linux to boot on your Apple hardware. Therefore, this part of the tutorial will only go into detail on installing Linux to the proper partition and choosing the right filesystem.  For more information on configuring your Linux install please refer to your distribution's documentation.
+This tutorial is focused on getting Linux to boot on your Apple hardware. Therefore, this part of the tutorial will only go into detail on installing Linux to the proper partition and choosing the correct filesystem.  For more information on configuring your Linux install please refer to your Linux distribution's documentation.
 
 ### Boot into your Linux Installer
 
@@ -27,7 +27,7 @@ Next we need to select and format the partition we created earlier. This is what
 
 ![](images/driveselect.png)
 
-Earlier, I created a ~50 GB FAT32 partition for my Linux installation.  This is where we have to carefully make sure we are selecting the right partition to install to.  As you can see '/dev/sda3' is about 50 GB and is formatted in the FAT32 filesystem.
+Earlier, I created a ~50 GB FAT32 partition for my Linux installation.  This is where we have to carefully make sure we are selecting the right partition to install to.  As you can see `/dev/sda3` is about 50 GB and is formatted in the FAT32 filesystem.
 
 With the correct partition selected, I clicked on "edit" in the bottom right of the window to configure my partition like so:
 
