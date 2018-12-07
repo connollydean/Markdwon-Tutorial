@@ -143,7 +143,7 @@ To access this directory in the terminal we need to use the following command:
 
 To view the files within this directory we can use the `ls` command.
 
-Finally, we need to run the "refind-install" file using the following command:
+Finally, we need to run the `refind-install` file using the following command:
 
 `sudo ./refind-install`
 
@@ -159,7 +159,7 @@ Now that you've installed rEFInd within your Linux OS, the rEFInd start up menu 
 
 Now that rEFInd is detecting your bootable Linux partition you can now select your desired OS every time your computer starts up.
 
-If you're satisfied with this you have now completed this tutorial. Otherwise feel free to move on to the "Finishing Touches" page.
+If you're satisfied with this you have now completed this tutorial. Otherwise feel free to move on to the "Customizing rEFInd" page.
 
 ***
 
