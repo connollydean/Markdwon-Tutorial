@@ -92,7 +92,7 @@ You can list your APFS snapshots by running the command `tmutil listlocalsnapsho
 
 You should see something like this:
 
-```bash
+```
 $ tmutil listlocalsnapshots /     
 com.apple.TimeMachine.2018-01-30-194719   
 com.apple.TimeMachine.2018-01-30-211627   
@@ -105,7 +105,7 @@ It's ok to delete these files as Time Machine won't need them since you already 
 
 You need to run this command for every snapshot on your system as shown below.
 
-```bash
+```
 $ sudo tmutil deletelocalsnapshots 2018-01-30-194719  
 Deleted local snapshot '2018-01-30-194719'  
 $ sudo tmutil deletelocalsnapshots 2018-01-30-211627  
