@@ -419,7 +419,6 @@ If the file has been renamed successfully then your Linux OS will now display it
 
 [I've included my personal Manjaro bootloader icon here](https://github.com/connollydean/Markdwon-Tutorial/blob/master/ThemeFiles/icons)
 ***
-
 ### Resources
 
 Feel free to use the included files from my personal rEFInd setup listed below:
@@ -431,10 +430,17 @@ The additional rEFInd EFI tools can be found [here.](https://github.com/connolly
 My personal `refind.conf` file can be found [here.](https://github.com/connollydean/Markdwon-Tutorial/blob/master/refind.conf)
 
 I also suggest making a backup of your custom icon files and `refind.conf` file as your settings could be overwritten when installing future rEFInd updates.
+***
+### Result
+If you used all of the same files and configurations I've demonstrated, You'll be left with a rEFInd menu that looks just like this:
 
+![](images/cleanrefind.png)
 
+Feel free to tweak your personal rEFInd install however you see fit.
 
+If you've made it this far you are finally finished and should (hopefully) be left with a sleek and clean dual booting system!
 
+![](https://media1.giphy.com/media/dsKnRuALlWsZG/giphy.gif?cid=3640f6095c0a53a8674a4d78518f23f6)
 
 ***
 ## [Back To Home Page](https://github.com/connollydean/Markdwon-Tutorial/blob/master/README.md)

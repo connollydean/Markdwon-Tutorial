@@ -9,7 +9,9 @@ Since you've successfully installed Linux on your partition, you can unplug your
 
 ### What The Fedora?!?!
 
-As you can see, rEFInd is not detecting our Linux install.
+As you can see, rEFInd is NOT detecting our Linux install.
+
+![](https://media1.giphy.com/media/R2m2NzVxQ3pbG/giphy.gif?cid=3640f6095c0a53a8674a4d78518f23f6)
 
 This is due to the following warning we saw on the previous page:
 
