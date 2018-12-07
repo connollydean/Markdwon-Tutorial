@@ -303,15 +303,86 @@ The second tool is gdisk.  gdisk is a standalone drive management and partitioni
 
 Similar to Super Grub2 Disk, Memtest86 and gdisk are standalone EFI tools meaning they don't require an OS to run.
 
-### [You can download the Memtest86 and gdisk .EFI files here]()
+### [You can download the Memtest86 and gdisk .EFI files here](https://github.com/connollydean/Markdwon-Tutorial/blob/master/EFI-Tools)
 
 
 To install these tools first navigate to `/Volumes/EFI/EFI/tools` as shown below:
 
 ![](images/tools.png)
 
+Next simply move the previously downloaded `memtest86_x64.EFI` and `gdisk_x64.EFI` files to the `/tools` directory.
 
+NOTE: If you are using EFI files downloaded from another source, be sure to make the filename end with `_x64.EFI`
 
+NOTE: Make sure you have `memtest` and `gdisk` listed in `showtools` or else they wont appear in the rEFInd menu.
+
+---
+
+### Adding Custom Icons To Specific Bootloaders
+
+rEFInd tries to detect the OS type of each bootlaoder and applies its corresponding icon. However, rEFInd seems to have a tough time applying the proper icon to certain bootloaders.  This is solved by creating an icon file named `.VolumeIcon.png` and placing it in the correct directory.
+
+##### Adding a custom icon to Super Grub2
+
+First, download your preferred icon file and make sure its in either `.PNG` or `.ICNS` format.
+
+#### [You can find my personal Super Grub2 icon file here](https://github.com/connollydean/Markdwon-Tutorial/blob/master/ThemeFiles/icons)
+
+Next, move your icon file to the same directory as `supergrub2_x64.EFI` located at `/Volumes/EFI` as shown below:
+
+![](images/sgicon.png)
+
+Next, we need to use Terminal to rename our icon file to `.VolumeIcon.png` we'll be using the `mv` command to accomplish this.
+
+First, change your directory to `/Volumes/EFI` with the following command:
+
+`cd /Volumes/EFI`
+
+Next, we'll use `mv` to rename our icon file with the following command:
+
+`mv supergrub2.png .VolumeIcon.png`
+
+If you did this correctly, you should now notice that our icon file has disappeared from Finder like so:
+
+![](images/sgicon2.png)
+
+This is due to the fact that filenames beginning with a `.` are considered system files and are hidden from view in Finder.
+
+We can use the `ls` command in Terminal to check if we've successfully changed the name to `.VolumeIcon.png`
+
+First, make sure you are within the `/Volumes/EFI` directory then simply type the following command:
+
+`ls -al`
+
+You should see something similar to the following:
+
+```Markdwon
+Connollys-MBP:EFI connollydean$ ls -al
+total 29747
+drwxrwxrwx@ 1 connollydean  staff      1536 Dec  7 00:41 .
+drwxr-xr-x+ 4 root          wheel       128 Dec  6 19:04 ..
+drwxrwxrwx  1 connollydean  staff       512 Nov  6 12:06 .Spotlight-V100
+drwxrwxrwx  1 connollydean  staff       512 Dec  4 14:40 .TemporaryItems
+drwxrwxrwx@ 1 connollydean  staff       512 Nov  6 18:07 .Trashes
+-rwxrwxrwx@ 1 connollydean  staff     41771 Dec  4 15:15 .VolumeIcon.png
+-rwxrwxrwx  1 connollydean  staff      4096 May 28  2018 ._.Trashes
+-rwxrwxrwx  1 connollydean  staff      4096 Dec  7 00:40 ._.VolumeIcon.png
+-rwxrwxrwx  1 connollydean  staff      4096 Dec  3 19:14 ._supergrub2_x64.EFI
+drwxrwxrwx  1 connollydean  staff       512 Dec  6 01:28 .fseventsd
+-rwxrwxrwx  1 connollydean  staff       661 Nov 30 05:39 BOOTLOG
+drwxrwxrwx  1 connollydean  staff       512 Nov 30 04:39 EFI
+-rwxrwxrwx@ 1 connollydean  staff  15171072 Nov 30 04:29 supergrub2_x64.EFI
+Connollys-MBP:EFI connollydean$
+```
+
+As you can see, on this line here:
+```
+-rwxrwxrwx@ 1 connollydean  staff     41771 Dec  4 15:15 .VolumeIcon.png
+```
+
+We've successfully added our `.VolumeIcon.png` to be used as Super Grub2's bootloader icon.
+
+##### Adding a custom bootloader icon to Linux
 
 
 
