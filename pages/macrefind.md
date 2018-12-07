@@ -24,10 +24,10 @@ To disable SIP, shut down your Mac and boot up again while holding `⌘ + R`.  O
 Next, simply type `csrutil disable` into the terminal and hit enter.  After this you can restart your system by typing `reboot` into the terminal.
 
 Finally, once your Mac reboots use the command `csrutil status` to check if you've successfully disabled SIP.  You should see something similar to the following:
-
->Connollys-MBP:~ connollydean$ csrutil status   
+```
+Connollys-MBP:~ connollydean$ csrutil status   
 System Integrity Protection status: disabled.
-
+```
 To enable SIP again, simply follow the same process but instead use the command `csrutil enable`
 
 ## Installing rEFInd
