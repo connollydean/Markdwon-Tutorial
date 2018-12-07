@@ -81,7 +81,7 @@ Next, if you open up Finder, you may notice a new drive has appeared named `EFI`
 
 ![](images/efifinder.png)
 
-If you don't see this, try pressing `Command + Shift + G` and type `Volumes/EFI/`` like so:
+If you don't see this, try pressing `Command + Shift + G` and type `Volumes/EFI/` like so:
 
 ![](images/efifind.png)
 
