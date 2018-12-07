@@ -167,7 +167,7 @@ Next, we need to point rEFInd to the location of our background file by editing 
 # limited by the underlying libraries; some files, like progressive JPEGs,
 # will not work.
 
-banner MyTheme/banners/banner3.png
+banner ThemeFiles/banners/banner3.png
 ```
 
 We can also tell rEFInd how to handle our background image by editing `refind.conf` like so:
