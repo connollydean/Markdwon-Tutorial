@@ -426,7 +426,7 @@ The additional rEFInd EFI tools can be found [here.](https://github.com/connolly
 
 My personal `refind.conf` file can be found [here.](https://github.com/connollydean/Markdwon-Tutorial/blob/master/refind.conf)
 
-I also suggest making a back up of your custom icon files and `refind.conf` file as your settings could be overwritten when installing future rEFInd updates.
+I also suggest making a backup of your custom icon files and `refind.conf` file as your settings could be overwritten when installing future rEFInd updates.
 
 
 
