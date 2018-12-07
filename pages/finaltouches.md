@@ -1,6 +1,17 @@
 ## Customizing rEFInd
 ***
+### Let's Face It, rEFInd Looks Ugly
 
+After completing this tutorial you were probably left with a rEFInd menu that looks something like this:
+
+![](images/uglyrefind.png)
+
+This page will walk you through the steps needed to ditch rEFInd's outdated look and leave you with something that looks more like this:
+
+![](images/cleanrefind.png)
+
+
+***
 ### Removing Unwanted Boot Options
 
 For the sake of clarity, I had my unwanted rEFInd boot options hidden throughout the making of this tutorial.
@@ -403,8 +414,17 @@ Next, use the following command to rename your icon file:
 `sudo mv example.png .VolumeIcon.png`
 
 Once again, we can use the `ls -al` command to check if we successfully renamed the file to `.VolumeIcon.png`
+***
 
+### Resources
 
+Feel free to use the included files from my personal rEFInd setup listed below:
+
+Banners, fonts, and icons can be found in the [ThemeFiles folder](https://github.com/connollydean/Markdwon-Tutorial/blob/master/ThemeFiles)
+
+The additional rEFInd EFI tools can be found [here.](https://github.com/connollydean/Markdwon-Tutorial/blob/master/EFI-Tools)
+
+My personal `refind.conf` file can be found [here.](https://github.com/connollydean/Markdwon-Tutorial/blob/master/refind.conf)
 
 
 
