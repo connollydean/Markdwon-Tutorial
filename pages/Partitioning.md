@@ -12,23 +12,23 @@ WARNING: FileVault has been known to cause problems with partitioning. If you us
 
 Go ahead and open up Disk Utility located in /Applications/Utilities.
 
-Next, you need to select your Mac's main drive then click on the button that says "Partition"
+Next, you need to select your Mac's main drive then click on the button that says `Partition`
 
 ![](images/dutil1.png)
 
-Next, you should see a prompt asking you if you'd like to create an APFS Volume or legitimately partition your drive.  Click "Partition".
+Next, you should see a prompt asking you if you'd like to create an APFS Volume or legitimately partition your drive.  Click `Partition`.
 
 ![](images/dutil2.png)
 
-After that, you should see a pie chart that shows your drive's partitions.  Assuming you have no other partitions on your system, the pie chart should be completely filled in.  Click on the "+" below the pie chart.
+After that, you should see a pie chart that shows your drive's partitions.  Assuming you have no other partitions on your system, the pie chart should be completely filled in.  Click on the `+` below the pie chart.
 
 ![](images/dutil3.png)
 
-Once you've clicked the "+" you'll notice you now have a new adjustable partition in your pie chart. Adjust the size of this partition to the  amount of storage you wish to give your Linux OS.  I recommend a minimum of 25 GB as the Linux system files will take a significant chunk of this storage.
+Once you've clicked the `+` you'll notice you now have a new adjustable partition in your pie chart. Adjust the size of this partition to the  amount of storage you wish to give your Linux OS.  I recommend a minimum of 25 GB as the Linux system files will take a significant chunk of this storage.
 
-Next, where it says "Format:" you need to select MS-DOS (FAT)
+Next, where it says `Format:`` you need to select `MS-DOS (FAT)`
 
-Then you can name the partition whatever you want and click "Apply"
+Then you can name the partition whatever you want and click `Apply`
 
 ![](images/dutil4.png)
 
@@ -54,7 +54,7 @@ In my situation, I figured out there was an APFS container that contained my ent
 
 ### Solution
 
-We will be using the command line to resize our APFS container so head into /Applications/Utilities and open up Terminal.
+We will be using the command line to resize our APFS container so head into `/Applications/Utilities' and open up Terminal.
 
 First, we need to list our APFS containers to figure out which one we need to resize.  Type the following command into Terminal.
 
@@ -64,7 +64,7 @@ You should see something like this:
 
 ![](images/APFS1.png)
 
-On your system, find the container that says "APFS Physical Store Disk" and take note of the disk number.  For me it was "disk0s2" but it could be different for you. This is the container we need to resize to make room for our Linux partition.
+On your system, find the container that says `APFS Physical Store Disk` and take note of the disk number.  For me it was `disk0s2` but it could be different for you. This is the container we need to resize to make room for our Linux partition.
 
 Since I have a 250GB SSD I'm going to resize my APFS container to 200GB with the remaining 50GB to be used for my Linux partition.
 
@@ -72,7 +72,7 @@ We can resize this container and create our Linux partition with the following c
 
 `sudo diskutil apfs resizeContainer disk0s2 200g FAT32 LINUX 0b`
 
-In the previous command you can see we are resizing container "disk0s2" to 200GB and we are creating an additional FAT32 partition named "LINUX" with a size of 0 bytes.  I used 0 bytes for the size as the command will automatically allocate the remaining 50GB of space on my drive to the LINUX partition.
+In the previous command you can see we are resizing container `disk0s2` to 200GB and we are creating an additional FAT32 partition named `LINUX` with a size of 0 bytes.  I used 0 bytes for the size as the command will automatically allocate the remaining 50GB of space on my drive to the LINUX partition.
 
 ### [Here's more info on resizing APFS containers](https://www.macobserver.com/tips/deep-dive/resize-your-apfs-container/)
 
