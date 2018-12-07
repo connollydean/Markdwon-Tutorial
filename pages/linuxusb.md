@@ -62,15 +62,15 @@ Alternatively, you could use a GUI application to verify the hash of your file s
 
 Before we can flash the .ISO image to your USB drive, we need to format it to the FAT32 filesystem.
 
-First open up Disk Utility and select your USB drive from the list of drives on the left. Then click the button that says "Erase" as shown below:
+First open up Disk Utility and select your USB drive from the list of drives on the left. Then click the button that says `Erase` as shown below:
 
 ![](images/USB1.png)
 
-Next, name the drive whatever you want and select "MS-DOS (FAT)" in the "Format" menu as shown below:
+Next, name the drive whatever you want and select `MS-DOS (FAT)` in the `Format` menu as shown below:
 
 ![](images/USB2.png)
 
-Finally, click "Erase" and your USB drive should now be ready for the .ISO disk image.
+Finally, click `Erase` and your USB drive should now be ready for the .ISO disk image.
 
 ## Flashing The .ISO Image To The USB Drive
 
@@ -78,15 +78,15 @@ There are many ways to flash an image to a USB drive but for the sake of this tu
 
 [You can download the Etcher application here](https://www.balena.io/etcher/)
 
-First, open up Etcher and click "Select image".
+First, open up Etcher and click `Select image`.
 
 ![](images/etcher1.png)
 
-Next, navigate to your .iso image and hit "Open" like so:
+Next, navigate to your .iso image and hit `Open` like so:
 
 ![](images/etcher2.png)
 
-Finally, make sure your correct USB drive is selected and click "Flash!".  Let the program flash the image.
+Finally, make sure your correct USB drive is selected and click `Flash!`.  Let the program flash the image.
 
 ![](images/etcher4.png)
 
