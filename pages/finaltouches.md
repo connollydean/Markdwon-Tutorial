@@ -320,7 +320,7 @@ NOTE: Make sure you have `memtest` and `gdisk` listed in `showtools` or else the
 
 ### Adding Custom Icons To Specific Bootloaders
 
-rEFInd tries to detect the OS type of each bootlaoder and applies its corresponding icon. However, rEFInd seems to have a tough time applying the proper icon to certain bootloaders.  This is solved by creating an icon file named `.VolumeIcon.png` and placing it in the correct directory.
+rEFInd tries to detect the OS type of each bootlaoder and applies its corresponding icon. However, rEFInd seems to have a tough time applying the proper icon to certain bootloaders.  This can be solved by creating an icon file named `.VolumeIcon.png` and placing it in the correct directory.
 
 #### Adding a custom icon to Super Grub2
 
