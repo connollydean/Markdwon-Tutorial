@@ -1,6 +1,8 @@
 # **A Beginner's Guide to Dual Booting Linux and MacOS on Apple Hardware**
-## By Connolly Dean ![](/pages/images/tuxmac.png)
+## By Connolly Dean
 ---
+
+![](/pages/images/tuxmac.png)
 
 ### 1. [Introduction](pages/Introduction.md)
 
