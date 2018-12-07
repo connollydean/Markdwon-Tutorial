@@ -304,7 +304,7 @@ Note: Make sure you have `csr_rotate` listed in `showtools` or else the tool won
 ---
 ### Adding Additional Tools To rEFInd
 
-This part is optional as you will probably never have a need for these extra tools but I like to have them there just in case I need them in the future.  
+This part is optional as you will probably never have a need for these extra tools but I like to have them installed just in case I need them in the future.  
 
 There are two different tools that can be added to rEFInd.  
 
