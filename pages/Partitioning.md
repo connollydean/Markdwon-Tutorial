@@ -5,6 +5,8 @@
 
 The goal of partitioning your HDD/SSD is to create a defined space where your Linux OS will live. Both your Linux OS and MacOS will be stored on the same drive but they will each exist inside their own defined space, otherwise known as their "partition".  
 
+
+WARNING: FileVault has been known to cause problems with partitioning. If you use FileVault I suggest disabling it before proceeding.  Feel free to re-enable FileVault after completing this tutorial
 ## Partitioning with Disk Utility
 ![](images/dutillogo.png)
 
