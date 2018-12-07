@@ -322,7 +322,7 @@ NOTE: Make sure you have `memtest` and `gdisk` listed in `showtools` or else the
 
 rEFInd tries to detect the OS type of each bootlaoder and applies its corresponding icon. However, rEFInd seems to have a tough time applying the proper icon to certain bootloaders.  This is solved by creating an icon file named `.VolumeIcon.png` and placing it in the correct directory.
 
-##### Adding a custom icon to Super Grub2
+#### Adding a custom icon to Super Grub2
 
 First, download your preferred icon file and make sure its in either `.PNG` or `.ICNS` format.
 
@@ -382,7 +382,33 @@ As you can see, on this line here:
 
 We've successfully added our `.VolumeIcon.png` to be used as Super Grub2's bootloader icon.
 
-##### Adding a custom bootloader icon to Linux
+#### Adding a custom bootloader icon to a Linux partition
+
+We'll be using the command line to accomplish this within our Linux OS.
+
+Similar to the previous process well be using the `mv` command to rename the file as well as move the file to the root directory of your OS.
+
+First, change your directory to the location of your icon file with the `cd` command. For example if your icon file is on your desktop you would type `cd /Desktop`
+
+Next, move the file to the root directory of your filesystem located at `/` with the following command:
+
+`sudo mv example.png /`
+
+Next, change your directory to `/` with the following command:
+
+`cd /`
+
+Next, use the following command to rename your icon file:
+
+`sudo mv example.png .VolumeIcon.png`
+
+Once again, we can use the `ls -al` command to check if we successfully renamed the file to `.VolumeIcon.png`
+
+
+
+
+
+
 
 
 
