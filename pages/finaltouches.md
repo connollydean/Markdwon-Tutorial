@@ -414,6 +414,10 @@ Next, use the following command to rename your icon file:
 `sudo mv example.png .VolumeIcon.png`
 
 Once again, we can use the `ls -al` command to check if we successfully renamed the file to `.VolumeIcon.png`
+
+If the file has been renamed successfully then your Linux OS will now display its custom bootloader icon in the rEFInd menu.
+
+[I've included my personal Manjaro bootloader icon here](https://github.com/connollydean/Markdwon-Tutorial/blob/master/ThemeFiles/icons)
 ***
 
 ### Resources
