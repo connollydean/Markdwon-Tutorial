@@ -167,7 +167,7 @@ Next, we need to point rEFInd to the location of our background file by editing 
 # limited by the underlying libraries; some files, like progressive JPEGs,
 # will not work.
 
-banner MyTheme/banners/banner2.png
+banner MyTheme/banners/banner3.png
 ```
 
 We can also tell rEFInd how to handle our background image by editing `refind.conf` like so:
@@ -274,7 +274,7 @@ Note: The order in which the tools are listed in `refind.conf` will be displayed
 Note: It's best not to hide the `hidden_tags` tool until after you've successfully removed any unwanted boot options as shown at the top of this page.
 
 ---
-### Adjusting Apple's System Integrated Protection (SIP) On The Fly With The `csr_rotate` Tool
+### Adjusting Apple's System Integrity Protection (SIP) On The Fly With The `csr_rotate` Tool
 
 As shown previously in this tutorial, to disable and enable SIP you are forced to boot into Recovery Mode.  However, rEFInd's `csr_rotate` tool allows you to quickly and easily adjust SIP right from the boot menu. To enable this we need to edit `refind.conf` like so:
 
@@ -299,7 +299,7 @@ As you can see, you are actually able to adjust each of SIP's specific security 
 
 Now just simply select the `csr_rotate` tool in the rEFInd menu and hit enter to adjust your SIP settings.
 
-Note: Make sure you have `csr_rotate` listed in 'showtools' or else the tool won't appear in the rEFInd menu.
+Note: Make sure you have `csr_rotate` listed in `showtools` or else the tool won't appear in the rEFInd menu.
 
 ---
 ### Adding Additional Tools To rEFInd
@@ -426,7 +426,7 @@ The additional rEFInd EFI tools can be found [here.](https://github.com/connolly
 
 My personal `refind.conf` file can be found [here.](https://github.com/connollydean/Markdwon-Tutorial/blob/master/refind.conf)
 
-
+I also suggest making a back up of your custom icon files and `refind.conf` file as your settings could be overwritten when installing future rEFInd updates.
 
 
 
