@@ -35,7 +35,7 @@ With the correct partition selected, I clicked on "edit" in the bottom right of 
 
 Notice here we need to format the partition to the `ext4` filesystem and set the mount point to `/`.
 
-This will format our partition to the 'ext4' filesystem which is especially designed for Linux.  Also, by setting the mount point to '/', we are telling the installer to install the entire system to this partition. After the partition has been configured you should see something like this:
+This will format our partition to the `ext4` filesystem which is especially designed for Linux.  Also, by setting the mount point to `/`, we are telling the installer to install the entire system to this partition. After the partition has been configured you should see something like this:
 
 ![](images/format.png)
 

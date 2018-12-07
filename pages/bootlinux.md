@@ -37,7 +37,7 @@ You can now use this live USB drive to access the Super Grub2 menu any time the 
 ***
 ## Option 2: Installing Super Grub2 Drive as a standalone .EFI file
 
-With this method we'll be installing Super Grub2 as a permanent boot option that we can access at any time from the rEFInd start up menu. I recommend this option over the live USB option as I find having Super Grub2 as a permanent boot option to be more useful than a live USB.
+With this method we'll be installing Super Grub2 as a permanent boot option that we can access at any time from the rEFInd start up menu. I recommend this option over the live USB option as I find having Super Grub2 as a permanent boot option to be more convenient than a live USB.
 
 First, download the Super Grub2 Disk EFI x86_64 standalone version from [this link](https://sourceforge.net/projects/supergrub2/files/2.02s10/super_grub2_disk_2.02s10/super_grub2_disk_standalone_x86_64_efi_2.02s10.EFI/download).
 
@@ -65,23 +65,23 @@ And you should see something like this:
 
 ![](images/efipart.png)
 
-Find the partition thats named "EFI" and take note of the identifier. In my case, its "disk0s1".
+Find the partition thats named `EFI` and take note of the identifier. In my case, its `disk0s1`
 
 Next, we need to mount this partition so we can add our Super Grub2 EFI file to it. To mount the partition, type the following command:
 
 `sudo diskutil mount disk0s1`
 
 You should see something like this in your terminal window:
-
-> Connollys-MBP:~ connollydean$ sudo diskutil mount disk0s1   
+```
+Connollys-MBP:~ connollydean$ sudo diskutil mount disk0s1   
 Password:   
 Volume EFI on disk0s1 mounted
-
-Next, if you open up Finder, you may notice a new drive has appeared named "EFI" like so:
+```
+Next, if you open up Finder, you may notice a new drive has appeared named `EFI` like so:
 
 ![](images/efifinder.png)
 
-If you don't see this, try pressing `Command + Shift + G` and type "/Volumes/EFI/" like so:
+If you don't see this, try pressing `Command + Shift + G` and type `Volumes/EFI/`` like so:
 
 ![](images/efifind.png)
 
@@ -111,11 +111,11 @@ Next, use the arrow keys to select "Detect and show boot methods" and press ente
 ![](images/supergrub2.png)
 
 On this page, we need to find our Linux OS. As you can see our first two items on the list are labelled "Linux" like so:
-
-> Linux /boot/vmlinuz-4.19-x86_64 (hd5,gpt3)    
+```
+Linux /boot/vmlinuz-4.19-x86_64 (hd5,gpt3)    
 Linux /boot/vmlinuz-4.19-x86_64 (single) (hd5,gpt3)
-
-You want to select the one that does NOT say "(single)".  Don't worry if you select the wrong one as you can always reboot and make the correct selection.
+```
+You want to select the one that does NOT say `(single)`.  Don't worry if you select the wrong one as you can always reboot and make the correct selection.
 
 Once you have the correct item selected, hit enter to boot into your Linux OS.
 ***
