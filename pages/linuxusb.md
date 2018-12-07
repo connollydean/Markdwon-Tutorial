@@ -24,7 +24,7 @@ Ubuntu is a great option for users who are just getting their feet wet with Linu
 
 #### Skill Level: Intermediate
 
-Manjaro Linux is good option for those of you that have some Linux experience but would also like to avoid pulling your own hair out. This distro comes in many different versions in the form of both official releases and community releases. Manjaro includes a GUI installation.
+Manjaro Linux is great option for those of you that have some Linux experience but would also like to avoid pulling your own hair out. This distro comes in many different versions in the form of both official releases and community releases. Manjaro includes a GUI installation.
 
 #### [Manjaro Home Page](https://manjaro.org/)
 
