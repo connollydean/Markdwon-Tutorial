@@ -397,7 +397,7 @@ We've successfully added our `.VolumeIcon.png` to be used as Super Grub2's bootl
 
 We'll be using the command line to accomplish this within our Linux OS.
 
-Similar to the previous process well be using the `mv` command to rename the file as well as move the file to the root directory of your OS.
+Similar to the previous process well be using the `mv` command to rename the file as well as move the file to the root directory of your Linux OS.
 
 First, change your directory to the location of your icon file with the `cd` command. For example if your icon file is on your desktop you would type `cd /Desktop`
 
