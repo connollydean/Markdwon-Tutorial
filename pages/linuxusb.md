@@ -45,7 +45,7 @@ For example my Manjaro image is called `manjaro-gnome-18.0.1-rc1-stable-x86_64.i
 
 This file is around 2 GB in size which is why it is important we make sure this file is in perfect condition before we continue with installing it.
 
-To verify that this file has not been altered or corrupted, we need to verify its hash. Most Linux distros will display the correct hashes on their download page.  For this example we'll be verifying a SHA1 hash but there is a selection of different types of hash types such as MD5 and SHA256.  The correct SHA1 hash for my file was the following:
+To verify that this file has not been altered or corrupted, we need to verify its hash. Most Linux distros will display the correct hashes on their download page.  For this example we'll be verifying a SHA1 hash but there is a selection of different hash types such as MD5 and SHA256.  The correct SHA1 hash for my file was the following:
 
 `a19b8c306514cdb13b818ba63e1c94f74daa5155`
 
@@ -70,11 +70,11 @@ Next, name the drive whatever you want and select `MS-DOS (FAT)` in the `Format`
 
 ![](images/USB2.png)
 
-Finally, click `Erase` and your USB drive should now be ready for the .ISO disk image.
+Finally, click `Erase` and if the process was successful your USB drive should now be ready for the .ISO disk image.
 
 ## Flashing The .ISO Image To The USB Drive
 
-There are many ways to flash an image to a USB drive but for the sake of this tutorial we'll be using a program called Etcher.
+There are many ways to flash an image to a USB drive but for the sake of this tutorial we'll be using a free open source program called Etcher.
 
 [You can download the Etcher application here](https://www.balena.io/etcher/)
 
