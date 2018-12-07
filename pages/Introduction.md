@@ -8,6 +8,10 @@ PROCEED AT YOUR OWN RISK.  I am not responsible for any damage you may cause whi
 
 #### Purpose of this tutorial
 This tutorial is designed for novice users who are interested in booting multiple operating systems on Apple hardware. This guide will be mostly focused on navigating and troubleshooting the many Apple-specific roadblocks you may encounter when creating a multi-boot system.
+
+#### Target Audience
+I tried my best to design this tutorial to be used by inexperienced beginners interested in experimenting with Linux without sacrificing the comfort of MacOS.  This tutorial assumes some basic knowledge of MacOS as well as a very general understanding of computer systems and hardware. Having some minimal experience with the command line will prove useful in completing this tutorial but is by no means necessary.
+
 #### Hardware this was tested on
 This tutorial was tested on a 2015 Macbook Pro 15" running MacOS Mojave 10.14.1 but should also work on all modern Mac variants.
 #### There's always a better way!
