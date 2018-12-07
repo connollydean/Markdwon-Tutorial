@@ -45,16 +45,18 @@ For example my Manjaro image is called `manjaro-gnome-18.0.1-rc1-stable-x86_64.i
 
 This file is around 2 GB in size which is why it is important we make sure this file is in perfect condition before we continue with installing it.
 
-To verify that this file has not been altered or corrupted, we need to verify it's SHA1 hash. Most Linux distros display the correct hash on their download page.  The correct SHA1 hash for my file was the following:
+To verify that this file has not been altered or corrupted, we need to verify its hash. Most Linux distros will display the correct hashes on their download page.  For this example we'll be verifying a SHA1 hash but there is a selection of different types of hash types such as MD5 and SHA256.  The correct SHA1 hash for my file was the following:
 
 `a19b8c306514cdb13b818ba63e1c94f74daa5155`
 
 To verify your .iso file, open up terminal and use the `shasum` command followed by the location of your .ISO file like so:
-```bash
+```
 Connollys-MacBook-Pro:~ connollydean$ shasum /Users/connollydean/Desktop/Extras/manjaro-gnome-18.0.1-rc1-stable-x86_64.iso     
 a19b8c306514cdb13b818ba63e1c94f74daa5155  
 ```
 As you can see, the two SHA1 hashes match which tells us we have a safe and clean download of our .ISO image file and you can move on to the next step.
+
+Alternatively, you could use a GUI application to verify the hash of your file such as the [Checksum App](https://itunes.apple.com/us/app/checksum/id1371978119?mt=12), free on the Mac App Store
 
 ## Preparing Your USB Drive
 
