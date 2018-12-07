@@ -314,7 +314,7 @@ Next simply move the previously downloaded `memtest86_x64.EFI` and `gdisk_x64.EF
 
 NOTE: If you are using EFI files downloaded from another source, be sure to make the filename end with `_x64.EFI`
 
-NOTE: Make sure you have `memtest` and `gdisk` listed in `showtools` or else they wont appear in the rEFInd menu.
+NOTE: Make sure you have `memtest` and `gdisk` listed in `showtools` or else they won't appear in the rEFInd menu.
 
 ---
 
