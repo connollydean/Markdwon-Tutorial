@@ -100,7 +100,7 @@ If you did everything correctly, reboot your computer and you should see somethi
 ![](images/grubrefind.png)
 ***
 
-### Booting Youd Linux OS Using Super Grub2 Disk
+### Booting Your Linux OS Using Super Grub2 Disk
 
 Now that we have Super Grub2 Disk working we can use it to boot into our Linux OS. Be sure to keep your USB drive disconnected to avoid confusion.
 
