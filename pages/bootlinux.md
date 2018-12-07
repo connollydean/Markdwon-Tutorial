@@ -153,7 +153,7 @@ Type your password and hit enter.  If you did everything correctly, your termina
 
 ![](images/manjterminal.png)
 
-Now that you've installed rEFInd within your Linux OS, the rEFInd start up menu should now display your bootable Linux partition. The rEFInd menu should now look something like this:
+Now that you've installed rEFInd within your Linux OS, the rEFInd start up menu should now detect and display your bootable Linux partition. The rEFInd menu should now look something like this:
 
 ![](images/manjrefind.png)
 ***
