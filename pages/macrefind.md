@@ -9,9 +9,9 @@ rEFInd is a custom boot manager designed for UEFI based computers. rEFInd detect
 
 #### Note: [The rEFInd website has lots of helpful information worth taking a look at](https://www.rodsbooks.com/refind/)
 
-## Disabling System Integrated Protection
+## Disabling System Integrity Protection
 
-Before we can install rEFInd, we have to temporarily disable System Integrated Protection (SIP).  SIP is security technology that helps protect your Mac from malicious software by limiting access to certain parts of MacOS.
+Before we can install rEFInd, we have to temporarily disable System Integrity Protection (SIP).  SIP is security technology that helps protect your Mac from malicious software by limiting access to certain parts of MacOS.
 
 [Here's more info on SIP](https://support.apple.com/en-us/HT204899)
 
