@@ -54,7 +54,7 @@ In my situation, I figured out there was an APFS container that contained my ent
 
 ### Solution
 
-We will be using the command line to resize our APFS container so head into `/Applications/Utilities' and open up Terminal.
+We will be using the command line to resize our APFS container so head into `/Applications/Utilities` and open up Terminal.
 
 First, we need to list our APFS containers to figure out which one we need to resize.  Type the following command into Terminal.
 
