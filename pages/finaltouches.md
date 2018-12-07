@@ -108,7 +108,7 @@ hideui arrows hints badges
 In my opinion, rEFInd's default icons seem incredibly outdated and tend to look especially terrible on Retina displays. Luckily, to avoid confusing your modern computer with a 1992 Macintosh PowerBook we can tell rEFInd to use our own custom icon directory.
 
 
-To do this, we need to create a folder within the refind folder located on the EFI partition.  I named my directory `ThemeFiles` and within it I created three subdirectories named `banner`, `Fonts`, and `icons` like so:
+To do this, we need to create a folder within the refind folder located on the EFI partition.  I named my directory `ThemeFiles` and within it I created three subdirectories named `banners`, `Fonts`, and `icons` like so:
 
 ![](images/themefiles.png)
 
