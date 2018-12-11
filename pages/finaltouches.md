@@ -227,7 +227,7 @@ To set a custom font we need to save a font file in the form of a .PNG image som
 # produce display irregularities.
 # The default is rEFInd's built-in font, Luxi Mono Regular 12 point.
 
-font MyTheme/Fonts/extralight46.png
+font ThemeFiles/Fonts/extralight46.png
 ```
 ### [I've included my personal custom font files here](https://github.com/connollydean/Markdwon-Tutorial/blob/master/ThemeFiles/Fonts)
 
